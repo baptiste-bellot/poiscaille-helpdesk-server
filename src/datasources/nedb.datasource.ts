@@ -3,7 +3,7 @@ import {juggler} from '@loopback/repository';
 
 const config = {
   name: 'nedb',
-  connector: '../../../loopback-connector-nedb',
+  connector: 'loopback-connector-nedb',
   stores: ['Incident']
 };
 

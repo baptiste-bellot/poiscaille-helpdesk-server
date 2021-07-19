@@ -38,7 +38,12 @@ export class Incident extends Entity {
   @property({
     type: 'number',
   })
-  feedbackAmont?: number;
+  refundAmont?: number;
+
+  @property({
+    type: 'string',
+  })
+  product?: string;
 
   @property({
     type: 'string',
